@@ -13,15 +13,17 @@ STUDENT=['ABDULLAH','MAHIBUL','PARTHO','JUBAER','AKASH','CHAYON','ABUJAR','SALMA
 for i in range(1,3):
     name1 =input("Enter your name :")
     name =name1.upper()
+    if name in STUDENT:
+        print(f"YES {name} IS A STUDENT OF JASHORE POLYTECHNIC INSTITUTE !")
+    else:
+        print(f" NO {name} IS NOT A STUDENT OF THIS COLLAGE")
     if name =="NAHID":
         admin= input("ENTER YOUR PASSWORD  TO ACCESS ADMIN PANNEL :")
         if admin =="119887":
             print("NAHID INFO")
             webbrowser.open_new("https://sites.google.com/view/team-jackfruit/home")
-    if name in STUDENT:
-        print(f"YES {name} IS A STUDENT OF JASHORE POLYTECHNIC INSTITUTE !")
-    else:
-        print(f" NO {name} IS NOT A STUDENT OF THIS COLLAGE")
+        else:
+            print("\t\t\tLOGIN FAILED")
 print("Cradit Limit Is Over.")
 site =input("Earn cradit to press 1 and enter :")
 if site =="1":
