@@ -9,9 +9,21 @@
 # #----------------------------------------------EXIT-----------------------------------------------------#
 # -->
 import webbrowser
+banner'''
+\033[0;32m    $$\   $$\  $$$$$$\  $$\      $$\ $$$$$$$$\         $$$$$\ $$$$$$$\ $$$$$$\ 
+    $$$\  $$ |$$  __$$\ $$$\    $$$ |$$  _____|        \__$$ |$$  __$$\\_$$  _|
+    $$$$\ $$ |$$ /  $$ |$$$$\  $$$$ |$$ |                 $$ |$$ |  $$ | $$ |  
+    $$ $$\$$ |$$$$$$$$ |$$\$$\$$ $$ |$$$$$\ $$$$$$\       $$ |$$$$$$$  | $$ |  
+    $$ \$$$$ |$$  __$$ |$$ \$$$  $$ |$$  __|\______|$$\   $$ |$$  ____/  $$ |  
+    $$ |\$$$ |$$ |  $$ |$$ |\$  /$$ |$$ |           $$ |  $$ |$$ |       $$ |  
+    $$ | \$$ |$$ |  $$ |$$ | \_/ $$ |$$$$$$$$\      \$$$$$$  |$$ |     $$$$$$\ 
+    \__|  \__|\__|  \__|\__|     \__|\________|      \______/ \__|     \______|    verson 2.2
+\033[0;34m
+'''
 STUDENT=['ABDULLAH','MAHIBUL','PARTHO','JUBAER','AKASH','CHAYON','ABUJAR','SALMAN','ABIR','NAFISA','RABBY','KHOKON','SOWROV','ARAFAT','SAGOR','RAYHAN','ABIR','LIMON','ASIF','SHUVRO','SABBAB','ANIK','RABEYA','MEHADI','TAMIM','SHAKIL','SHAFIQUL','ROTHEN','ZAYED','RIYED','NAHID','ASHIF','MUSTAKIN','AFRIDI','SAZID','FAYSAL','FAHIM','JEHAD','URFE','SIMI','MAHIA','RANI','RUMPA','ADRITA','HANA','ROHAN']
-for i in range(1,3):
-    name1 =input("Enter your name :")
+for i in range(1,6):
+    print(banner)
+    name1 =input("ENTER YOUR NAME :")
     name =name1.upper()
     if name in STUDENT:
         print(f"YES {name} IS A STUDENT OF JASHORE POLYTECHNIC INSTITUTE !")
