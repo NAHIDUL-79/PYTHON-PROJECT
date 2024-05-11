@@ -37,6 +37,7 @@ for i in range(1,6):
         if admin =="119887":
             print("NAHID INFO")
             webbrowser.open_new("https://sites.google.com/view/team-jackfruit/home")
+            break
         else:
             print("\t\t\tLOGIN FAILED")
 print("Cradit Limit Is Over.")
