@@ -1,16 +1,9 @@
-# python-project
-this is my first python project. thanks to ruhul amin vai 
-# TABLE
-#----------------------------------------------INFO-----------------------------------------------------#
-#ADMIN       : MD.NAHIDUL ISLAM
-#TEAM NAME   : TIN-TEAM-INFINITY
-#MY FACEBOOK : I HATE FACEBOOK . FUCK YOU DEAR
-#MY YOU TUBE : https://www.youtube.com/channel/UCRzCWOq05e-ew9XVGMNrrug
-#MY TIC TOC  : I AM NOT A FALTU PERSON
+# NAHID-VIRUS 4.4
+## THIS TOOL CAN RUN PYTHON FILE . IN ONE FILE . BE CAREFUL . TAKE IT YOUR OWN RISK . TO USE THIS TOOL
+ADMIN       : MD.NAHIDUL ISLAM
+TEAM NAME   : TIN-TEAM-INFINITY
+MY FACEBOOK : I HATE FACEBOOK . FUCK YOU DEAR
+MY YOU TUBE : https://www.youtube.com/channel/UCRzCWOq05e-ew9XVGMNrrug
+MY TIC TOC  : I AM NOT A FALTU PERSON
 HELLO MY CHILD THIS IS MY TOOL IF YOU THINK YOU CAN STILL MY CODE.REMAMBER THIS >(I AM YOUR DAD)
-#----------------------------------------------EXIT-----------------------------------------------------#
-👋 Hi, I’m MD.NAHIDUL ISLAM ....
-👀 I’m interested in ...
-🌱 I’m currently learning ...
-💞️ I’m looking to collaborate on ...
-📫 How to reach me ...
+
