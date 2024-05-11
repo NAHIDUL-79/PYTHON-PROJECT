@@ -14,19 +14,22 @@ $$ |\$$$ |$$ |  $$ |$$ |  $$ |  $$ |  $$ |  $$ |         \$$$  /    $$ |  $$ |  
 $$ | \$$ |$$ |  $$ |$$ |  $$ |$$$$$$\ $$$$$$$  |          \$  /   $$$$$$\ $$ |  $$ |\$$$$$$  |\$$$$$$  |
 \__|  \__|\__|  \__|\__|  \__|\______|\_______/            \_/    \______|\__|  \__| \______/  \______/   Verson-4.4
 '''
+command_list='''
+[1] JPI INFO CST STUDENT 
+[2] AUTO SMS COMMAND
+'''
 comm ='''\033[0;31m
 LOGIN ERROR ....
 '''
 while True:
     clear_screen()
     print(BANNER)
-    print('[1] DEMO FILE')
-    print('[2] CLONE FILE')
+    print(command_list)
     CHOICE = input('\033[1;34mENTER YOUR CHOICE : ')
     if CHOICE =='1':
-        os.system('python demo.py')
+        os.system('python JPI.py')
     elif CHOICE=='2':
-        os.system('python clone.py')
+        os.system('python auto-sms.py')
     else:
         for i in range(10,0,-1):
             sleep(0.5)
