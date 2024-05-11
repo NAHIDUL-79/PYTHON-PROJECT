@@ -15,9 +15,9 @@ $$ | \_/ $$ |$$$$$$$$\ \$$$$$$  |\$$$$$$  |$$$$$$$$\ $$ | \$$ |\$$$$$$  |$$$$$$$
 print(BANNER)
 import pyautogui as auto
 ok = input('DO YOU WANT TO START (Y/N) : ')
-if ok='Y,y':
+if ok =='Y,y':
   while True:
       auto.write('OFFLINE JAO :')
       auto.press('enter')
 else:
-  break
+  print('NICE CHOICE :} ')
